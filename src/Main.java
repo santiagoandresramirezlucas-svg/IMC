@@ -12,7 +12,7 @@ public class Main {
         // 27 a 29.9      sobrepeso grado 2
         // 30 a 34.9      obecidad tipo 1
         // 35 a 39.9      obecidad tipo 2
-        // 40 a 49,0      obecidad morvida
+        // 40 a 49,9      obecidad morvida
         // mayor a 50     obecidad extrema
 
         Scanner lector = new Scanner(System.in);
@@ -45,7 +45,7 @@ public class Main {
             } else if (imc >=35 && imc <= 39.9) {
                 System.out.println("Su IMC es: " + imc);
                 System.out.println("Obecidad - Tipo 2");
-            } else if (imc >=40 && imc <= 49) {
+            } else if (imc >=40 && imc <= 49.9) {
                 System.out.println("Su IMC es: " + imc);
                 System.out.println("Obecidad morvida");
             } else {
